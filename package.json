@@ -12,8 +12,6 @@
     "license": "gpl-3.0",
     "devDependencies": {
         "barrelsby": "^2.2.0",
-        "typedoc": "^0.18.0",
-        "typedoc-plugin-markdown": "^2.4.1",
         "typescript": "^3.9.7"
     }
 }
