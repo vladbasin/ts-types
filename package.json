@@ -1,14 +1,14 @@
 {
     "name": "@vladbasin/ts-types",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Various types for better typescripting",
-    "main": "dist/index.js",
-    "types": "dist/index.d.js",
+    "main": "./dist/index.js",
+    "types": "./dist/index.d.ts",
     "scripts": {
-        "prepublish": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
+        "prepublishOnly": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
     },
     "author": "Vlad Basin",
-    "license": "gpl-3.0",
+    "license": "GPL-3.0-only",
     "devDependencies": {
         "barrelsby": "^2.2.0",
         "typescript": "^3.9.7"
