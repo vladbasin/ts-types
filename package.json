@@ -7,7 +7,6 @@
     "scripts": {
         "prepublish": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
     },
-    "keywords": [],
     "author": "Vlad Basin",
     "license": "gpl-3.0",
     "devDependencies": {
