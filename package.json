@@ -4,6 +4,11 @@
     "description": "Various types for better typescripting",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
+    "homepage": "https://github.com/vladbasin/ts-types",
+    "keywords": [
+        "types",
+        "functional programming"
+    ],
     "scripts": {
         "prepublishOnly": "rm -r -f dist && cd src && barrelsby --delete && cd .. && tsc"
     },
